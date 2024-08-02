@@ -1,0 +1,304 @@
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111133;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #FF0044;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #FF0044;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  width: 25%;
+}
+
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+b {
+  color:white;
+}
+
+
+h2 {
+  color: white;
+  font-family: Righteous;
+}
+
+h4 {
+  color: #ffffff;
+  font-family: Righteous;
+}
+
+p {
+  color: white;
+  
+}
+
+
+
+a {
+  color:#FF0044;
+  font-family: Inter;
+
+}
+
+
+
+.form {
+  border-radius: 5px;
+  background-color: #111133;
+  padding: 20px;
+  color: white;
+}
+
+.payment {
+  border: solid #111133;
+  background-color: #111133;
+  padding: 20px;
+  color: white;
+}
+
+
+
+.history {
+  border-radius: 5px;
+  background-color: #111133;
+  padding: 20px;
+  color: white;
+}
+
+.submitkey {
+  border-radius: 5px;
+  background-color: #111133;
+  padding: 20px;
+  color: white;
+}
+
+
+
+body {
+  background-color: #444466;
+}
+
+
+
+h1 {
+  color: white;
+  font-family: Righteous;
+}
+
+
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  color: #FF0044;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens*/
+  }
+} 
+
+li a:hover {
+  background-color: grey;
+}
+
+
+
+header{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #111133;
+    background-image:url("../images/headerLogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px 200px;
+} 
+
+/* Centered text */
+.center{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.borders > div {
+  background: lightgrey;
+  border: 1px solid grey;
+}
+
+.redText {
+  color: #FF0033;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #FF0044;
+}
+
+
+
+.fullSize{
+  width: 100%;
+  background-color: #FF0044;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Inter;
+
+
+}
+
+.quarterSize{
+  width: 24%;
+  background-color: #FF0044;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Inter;
+
+
+}
+
+
+
+
+
+.lengthy{
+  width: 100%;
+  background-color: #222244;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-family: Inter;
+  color: white;
+  height: 35px;
+
+}
+
+.shortened {
+  width: 49.5%;
+  background-color: #222244;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-family: Inter;
+  color: white;
+  height: 35px;
+
+}
+
+.seventyFive{
+  width: 75%;
+  background-color: #222244;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-family: Inter;
+  color: white;
+  height: 35px;
+
+}
+
+button{
+  width: 100%;
+  background-color: #FF0044;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Inter;
+
+
+}
+
+.sideButton{
+  width: 25%;
+  background-color: #FF0044;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Inter;
+
+
+}
+
+
